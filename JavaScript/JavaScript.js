@@ -10,7 +10,7 @@ while(place!='Petra'&& place!='Wadi rum'&& place!='Aqaba'){
 }
 
 var rating=prompt('rate the webSite out of 5');
-var star='<img src="http://clipart-library.com/images/kT8oyeMxc.jpg" width="250px">';
+var star='<img src="http://clipart-library.com/images/rijGLK4RT.png" alt="img" width="250px">';
 var result='';
 for( var i=0; i<rating; i++){
     result+=star;
