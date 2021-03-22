@@ -4,6 +4,8 @@
     <title>
         Traveling in Jordan
     </title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="JavaScript/JavaScript.js"> </script>
    </head> 
 
    <body>
@@ -11,9 +13,9 @@
            <h1>
                Travelers
            </h1>
-           <h2>
+           <!--<h2>
                The best website for the best journeus in jordan
-           </h2>
+           </h2> -->
            <nav>
                <ul>
                    <li>
@@ -33,16 +35,16 @@
        </header>
 
        <main>
-        <section>
+        <section id="first">
             <h3>
-                The tourist sites in jordan
+                The tourist sites in Jordan
             </h3>
              <p>
-                This website allows you to know the tourist sites in jordan and book trip
+                This website allows you to know the tourist sites in Jordan and book trip
              </p>
         </section>
-        <section>
-            <div>
+        <section id="second">
+            <div class="place">
                 <h4>
                     Petra
                 </h4>
@@ -51,7 +53,7 @@
                     THE ICON OF THE ROSE-RED CITY:The city of Petra, capital of the Nabataean Arabs, is one of the most famous archaeological sites in the world, it is located 240 km south of the capital Amman and 120 km north of the red sea town of Aqaba , Petra the world wonder, is undoubtedly Jordan's most valuable treasure and greatest tourist attraction, and it is visited by tourists from all over the world.
                 </p>
             </div>
-            <div>
+            <div class="place">
                 <h4>
                    Wadi rum 
                 </h4>
@@ -61,7 +63,7 @@
                     Suitable for camping trips in the desert
                 </p>
             </div>
-            <div>
+            <div class="place">
                 <h4>
                     Aqaba
                 </h4>
@@ -73,6 +75,13 @@
 
         </section>
        </main>
+       <section id="third">
+        <div>
+            <script>
+                document.write( GetRate());
+            </script>
+        </div>
+      </section>
        <footer>
         <p>
             Copy rights &copy;Azzam2021
@@ -80,6 +89,5 @@
         </p>
 
         </footer>
-        <script src="JavaScript/JavaScript.js"> </script>
    </body>
 </html>
